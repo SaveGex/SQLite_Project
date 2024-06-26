@@ -31,7 +31,7 @@ int main() {
 	int exit = 0;
 	exit = sqlite3_open(path_file, &DB);
 	if (exit != SQLITE_OK) {
-		cerr << "\nНе вдалось відкрити БД" << sqlite3_errmsg(DB) << endl;;
+		cerr << "\nНе вдалось відкрити БД" << sqlite3_errmsg(DB) << endl;
 		sqlite3_close(DB);
 		return -1;
 	}
