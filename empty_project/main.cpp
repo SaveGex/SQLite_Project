@@ -16,7 +16,7 @@ int main() {
 
     //Обов'язково потрібно поміняти цей шлях і вказати .db
     //const char* path_file = "C:\\Date.db";
-    const char* path_file = "C:\\Users\\Opsik\\Documents\\sqlite\\bonk.db";
+    const char* path_file = "C:\\bonk.db";
 
     sqlite3* DB;
     string sql = "CREATE TABLE IF NOT EXISTS MUSIC_FOR_TEST("
