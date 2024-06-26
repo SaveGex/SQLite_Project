@@ -15,7 +15,9 @@ using namespace std;
 int main() {
 	SetConsoleOutputCP(1251);
 	SetConsoleCP(1251);
-	const char* path_file = "C:\\Users\\Opsik\\Documents\\sqlite\\MUSIC.db";
+	//Обов'язково потрібно поміняти цей шлях і вказати .db
+	//const char* path_file = "C:\\Date.db";
+	const char* path_file = directory;
 
 	sqlite3* DB;
 	string sql = "CREATE TABLE IF NOT EXISTS MUSIC_FOR_TEST("
